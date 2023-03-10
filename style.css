@@ -29,12 +29,16 @@ li a{
 }
 /*-------- Navigation bar ended------
 ---------- */
-
+hr{
+    margin: 0 auto;
+    width: 85%;
+    height: 2px;
+}
 
 /*-------- Player Section started------
 ---------- */
 .topplayer{
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: #ffffff;
     width: 90%;
 }
@@ -43,6 +47,7 @@ li a{
 }
 h2{
     color: blue;
+    margin-top: 6px;
 }
 .players{
     display: grid;
@@ -56,8 +61,34 @@ h2{
     gap: 20px;
 }
 .player>img{
-    width: 40%;
+    width: 50%;
+}
+/*-------- Player Section Ended------
+---------- */
+
+/*-------- Blog Section started------
+---------- */
+
+.blogsection{
+    padding: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blog>img{
+    width: 55%;
+}
+p>span{
+    color: blueviolet;
 }
 
-/*-------- Player Section Ended------
+/*-------- Blog Section Ended------
 ---------- */
