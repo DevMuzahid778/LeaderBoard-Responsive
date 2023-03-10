@@ -1,0 +1,27 @@
+/*-------- Navigation bar started ------
+---------- */
+header{
+    background-color: #562eff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:  25px 70px ;
+}
+span>a>img{
+    width: 45px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+li a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*-------- Navigation bar ended------
+---------- */
