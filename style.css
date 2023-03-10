@@ -40,6 +40,7 @@ hr{
 .topplayer{
     margin: 10px auto;
     background-color: #ffffff;
+    border-radius: 4px;
     width: 90%;
 }
 .playersection{
@@ -90,5 +91,53 @@ p>span{
     color: blueviolet;
 }
 
-/*-------- Blog Section Ended------
+/*-------- course Section Ended------
 ---------- */
+
+.coursesection{
+    padding: 30px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;   
+}
+.course{
+    background-color: #f6f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.course>img{
+    width: 100%;
+}
+h4{
+    color: red;
+}
+.rating-time{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    color: gray;
+}
+.fa-star{
+    color: rgb(255, 157, 0);
+}
+.blank{
+    color: gray;
+}
+.half-stroke{
+    color: gray;
+}
+.time{
+    background-color: #ffe4e8;
+    margin-left: 2px;
+    border-radius: 30px;
+    padding: 0px 30px;
+}
+.clock{
+    color: red;
+}
+/*-------- course Section Ended------
+---------- */
+
